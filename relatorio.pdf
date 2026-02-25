@@ -1,0 +1,87 @@
+# Atividade-Implementa-o-de-Algoritmos-de-Ordena-o-em-C
+
+# Relatório – Algoritmos de Ordenação em C
+
+## 1. Introdução
+
+Neste trabalho eu implementei alguns algoritmos de ordenação na linguagem C com o objetivo de entender melhor como cada um funciona na prática e comparar o desempenho entre eles.
+
+Os algoritmos que eu implementei foram:
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Quick Sort
+* Merge Sort
+
+---
+
+## 2. Desenvolvimento
+
+Cada algoritmo foi feito em um arquivo separado, com uma função específica para ordenar o vetor.
+
+Eu utilizei o mesmo vetor em todos os testes:
+
+```
+{9, 5, 2, 7, 1, 8, 3, 6, 4, 0}
+```
+
+Também usei a função `clock()` para medir o tempo de execução de cada algoritmo, para conseguir comparar qual era mais rápido.
+
+---
+
+## 3. O que eu percebi durante o desenvolvimento
+
+Durante a implementação, percebi algumas diferenças importantes entre os algoritmos:
+
+* O **Bubble Sort** foi o mais fácil de entender, mas também percebi que ele faz muitas repetições desnecessárias.
+* O **Selection Sort** também é simples, mas não muda tanto em desempenho em relação ao Bubble.
+* O **Insertion Sort** já pareceu um pouco mais eficiente, principalmente porque ele vai organizando aos poucos.
+* O **Quick Sort** foi mais difícil de implementar, mas deu pra perceber que ele é bem mais rápido.
+* O **Merge Sort** também foi mais complexo, mas funciona de forma bem organizada dividindo o problema.
+
+---
+
+## 4. Resultados
+
+Todos os algoritmos conseguiram ordenar o vetor corretamente.
+
+Exemplo:
+
+* Antes: 9 5 2 7 1 8 3 6 4 0
+* Depois: 0 1 2 3 4 5 6 7 8 9
+
+Em relação ao tempo de execução, mesmo com um vetor pequeno, já deu pra perceber diferença.
+
+---
+
+## 5. Comparação
+
+Na minha percepção:
+
+* Os mais lentos foram: **Bubble Sort e Selection Sort**
+* O Insertion Sort ficou no meio
+* Os mais rápidos foram: **Quick Sort e Merge Sort**
+
+Isso acontece porque os mais avançados usam estratégias melhores, enquanto os mais simples testam muitas vezes a mesma coisa.
+
+---
+
+## 6. Conclusão
+
+Com essa atividade, consegui entender melhor como funcionam os algoritmos de ordenação na prática.
+
+Também percebi que:
+
+* Nem sempre o algoritmo mais fácil é o melhor
+* Algoritmos mais complexos podem ser mais eficientes
+
+Foi uma atividade importante para entender melhor lógica de programação e desempenho.
+
+---
+
+## 7. Observação
+
+O algoritmo Shell Sort não foi implementado, pois optei por focar nos algoritmos mais utilizados.
+
+---
